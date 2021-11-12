@@ -1,0 +1,60 @@
+h1 {
+  font-size: 45px;
+  color: #3b3b3f;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.search {
+  display: block;
+  padding: 20px;
+}
+
+.lastsearch {
+  display: block;
+  padding: 0px 20px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3b3b3f;
+}
+
+.temperature {
+  display: block;
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 10px 30px;
+  color: #3b3b3f;
+}
+
+.units {
+  display: block;
+  position: relative;
+  left: 165px;
+  bottom: 50px;
+}
+
+.humidityWind {
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  left: 250px;
+  bottom: 85px;
+}
+
+.row {
+  font-weight: bold;
+}
+
+#weekdays {
+  text-align: center;
+}
+
+#dayTemp {
+  text-align: center;
+  padding: 10px 10px;
+}

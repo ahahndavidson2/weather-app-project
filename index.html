@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <div class="container">
+    <title>Project Weather App</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+
+  <body>
+  
+    <div class="container">
+        <form class="search" id="citysearch-form">
+            <input type="search" placeholder="enter a city to search" autocomplete="off" autofocus="on" id="search-input" />
+            <input type="submit" value="Search"/>
+            </form>
+    <h1 id= "city">
+   San Francisco
+    </h1>
+    <p class="lastsearch" id= "daytemp">
+ Monday 9:00 am
+    </p>
+<div class="row">
+  <div class="col-6">
+    <div class="clearfix">
+<div class="float-left">
+  <span class="temperature" id="temperature">☀ 29</span>
+  <span class="units">
+    <a href="#" id="celcius-link">℃</a>
+    <a href="#" id="fahrenheit-link">℉</a>
+  </span>
+</div>
+
+    </div>
+  </div>
+  
+</div>
+<div class="col-6">
+  <ul class="humidityWind">
+    <li>Humidity:<span id="humidity">77</span>
+    </li>
+    <li>Wind:<span id="windSpeed">8</span> km/h 
+    </li>
+  </ul>
+</div>
+<div class="row" id="weekdays">
+  <div class="col">Mon</div>
+  <div class="col">Tues</div>
+  <div class="col">Wed</div>
+  <div class="col">Thurs</div>
+  <div class="col">Fri</div>
+</div>
+<div class="row" id="dayTemp">
+  <div class="col">☀ 29</div>
+  <div class="col">☀ 29</div>
+  <div class="col">☀ 29</div>
+  <div class="col">☀ 29</div>
+  <div class="col">☀ 29</div>
+</div>
+    <script src="src/index.js"></script>
+  </div>
+
+ 
+  </body>
+</html>
